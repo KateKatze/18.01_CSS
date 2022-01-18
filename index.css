@@ -57,6 +57,12 @@ body{
     margin-right: 2vw;
 }
 
+.hero img{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+
 .containertwo{
     display: flex;
     justify-content: start;
