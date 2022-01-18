@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: "Amazon Ember Light", sans-serif;
+    background-color: whitesmoke;
+}
+
+.navbar{ 
+        width: 100%; 
+}
+
+.navbar img{
+    background-size: 100% 100%;
+}
+
+.containerone{
+    display: flex;
+    background-color:#131921;
+    color:rgb(255,255,255);
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.containerone .iconname{
+    display: flex;
+    align-items:center;
+    padding-right: 5px;
+}
+
+.containerone .iconname img{
+    padding-right: 20px;    
+}
+
+.containerone button{
+    background-color: #131921;
+    width: 8vw;
+    height: 7vh;
+    margin-right: 20px; 
+    border-radius: 5px;
+    border-style: none;
+}
+
+.containerone button a{
+    color: white;
+    text-decoration: none;
+}
+
+#text{
+    width: 45vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: #131921;
+}
+
+.containerone .logos .button{
+    margin-right: 2vw;
+}
+
+.containertwo{
+    display: flex;
+    justify-content: start;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+    background-color: #232F3E;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.containertwo button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.containertwo button{
+    border-style: none;
+    padding: 10px;
+    background-color: #232F3E;
+    margin-right: 2vw;
+} 
+
+.containertwo button:hover {
+    border-style: solid;
+    border-color: darkgrey;
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 51% 51%;
+    margin-bottom: 20px;
+}
+
+.grid .box img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: 5px 5px;
+}
+
+.box:hover{
+    height: 65vh;
+    background-color: white;
+}
+
+.box .buynow{
+    margin-left: 5vw;
+    background-color: #131921;
+    color: white;
+    border-color: #131921;
+    padding: 3px;
+    margin-top:3px;
+    border-radius: 2px;
+}
+
+.box .buynow a{
+    text-decoration: none;
+    color:white
+}
+
+.box .buynow:hover{
+    background-color: darkgrey;
+    border-style: none;
+}
+
+.box .buynow a:hover{
+    color:black;
+}
+
+
+footer{
+    background-color: #131921;
+    text-align: center;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: -10px;
+    padding:3vh;
+}
